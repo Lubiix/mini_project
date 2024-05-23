@@ -19,10 +19,8 @@ while user_number != number_to_guess:
             print(f"The number is higher,{guesses_chance} try left")
             print("Please enter a number:")
             user_number = int(input())
-        elif user_number  == number_to_guess:
-            print("You won")
-            break
     else:
         print(f"You lost the number was {number_to_guess}")
         break
-
+else: 
+    print("You won")
